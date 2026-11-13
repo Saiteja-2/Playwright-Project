@@ -15,7 +15,7 @@ export default defineConfig({
   reporter: 'html',
 
   use: {
-    headless: false,
+    headless: true,
 
     launchOptions: {
       slowMo: 1000,
